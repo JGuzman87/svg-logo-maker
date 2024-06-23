@@ -13,10 +13,9 @@
 
   The purpose of this project is to create an SVG file with prompts asking for a shape, the shape's color, typing text and choosing a text color.  Test must be performed using jest and it must pass.
 
-  ![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/jorgeguzman/Desktop/challenges/svg-logo-maker/images/image-1.png?version%3D1719109235003)
+  ![alt text](image-1.png)
 
-  ![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/jorgeguzman/Desktop/challenges/svg-logo-maker/images/image-2.png?version%3D1719109264383)
-
+  ![alt text](image-2.png)
   
   ## Installation
 
