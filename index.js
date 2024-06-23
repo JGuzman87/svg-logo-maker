@@ -34,17 +34,17 @@ function writeToFile(fileName, data) {
 }
 
 function createShape({shape, text, textColor, shapeColor}) {
-    let shapeInstance;
+    let addShape;
     switch (shape) {
-        case "Triangle": shapeInstance = new Triangle(); break;
-        case "Circle": shapeInstance = new Circle(); break;
-        case "Square": shapeInstance = new Square(); break;
+        case "Triangle": addShape = new Triangle(); break;
+        case "Circle": addShape = new Circle(); break;
+        case "Square": addShape = new Square(); break;
 
         default: throw new Error("Invalid shape type");
         
     }
-    shapeInstance.setColor(shapeColor);
-    return shapeInstance.render(text, textColor);
+    addShape.setColor(shapeColor);
+    return addShape.render(text, textColor);
 }
 
 function init() {
