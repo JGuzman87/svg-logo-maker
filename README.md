@@ -16,6 +16,8 @@
   ![alt text](image-1.png)
 
   ![alt text](image-2.png)
+
+  <video controls src="SVG-Logo (1).mp4" title="Title"></video>
   
   ## Installation
 
